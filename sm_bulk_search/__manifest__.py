@@ -23,11 +23,9 @@ does changes.
     "website": "https://apps.odoo.com/apps/modules/browse?author=Steven Marp",
     "license": "OPL-1",
     "depends": ["web"],
-    "assets": {
-        "web.assets_backend": [
-            "sm_bulk_search/static/src/bulk_search.js",
-        ],
-    },
+    "data": [
+        "views/assets.xml",
+    ],
     "installable": True,
     "application": False,
     "auto_install": False,
